@@ -15,6 +15,7 @@ def search(event):
 
 
 window = tk.Tk()
+window.title('Wikipedia Search')
 window.geometry("700x300")
 search_box = tk.Entry(window)
 search_box.place(x=0, y=0)
